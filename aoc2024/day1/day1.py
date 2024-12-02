@@ -1,5 +1,3 @@
-import requests
-
 def sol():
     with open("input.txt", "r") as file:
         lines = [x.strip() for x in file.readlines()] 
